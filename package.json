@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Angela Marquez and Katreena Mendoza",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

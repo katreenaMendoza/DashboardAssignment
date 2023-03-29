@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="EN">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>Marquez & Mendoza Bootstrap</title>
+		<!-- FAVICON -->
+		<link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
+
+		<link rel="stylesheet" href="./assets/css/sidebars.css">
+		<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+		<!-- BOOTSTRAP THEME -->
+		<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+		<body>
+			<!-----------------SIDEBAR MENU (LEFT)------------------->
+			<div class="flex-column flex-shrink-0 p-4 text-bg-dark left-panel">
+				<a href="/" class="pt-30 d-flex align-items-center mb-3  text-decoration-none">
+					<img src="/assets/images/logo.png" class="pl-40 "/>
+					<span class=" p-4 fs-19-col-gray">Dashboard Kit</span>
+				</a>	
+				<!-- BOOTSTRAP NAV -->
+				<ul class="nav nav-pills flex-column mb-auto">
+					<li class="nav-item nav-link-active">
+					  <a href="#" class="nav-link-active nav-link active" aria-current="page">
+						<img src="/assets/images/overview-icon.png"/>
+							<span class="fs-16-col-gray-active p-4">Overview</span>
+					  </a>
+					  
+					</li>
+					<li>
+					  <a href="#" class="nav-link text-white">
+						<img src="/assets/images/ticket-icon.png"/>
+							<span class="fs-16-col-gray p-4">Tickets</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="nav-link text-white">
+						<img src="/assets/images/ideas-icon.png"/>
+						<span class="fs-16-col-gray p-4">Ideas</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="nav-link text-white">
+						<img src="/assets/images/contacts-icon.png"/>
+						<span class="fs-16-col-gray p-4">Contacts</span>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="nav-link text-white">
+						<img src="/assets/images/agents-icon.png"/>
+						<span class="fs-16-col-gray p-4">Agents</span>
+					  </a>
+					</li>
+					<li>
+						<a href="#" class="nav-link text-white">
+						<img src="/assets/images/articles-icon.png"/>
+						<span class="fs-16-col-gray p-4">Articles</span>
+						</a>
+					  </li>
+					  <hr>
+					  <li>
+						<a href="#" class="nav-link text-white">
+						<img src="/assets/images/settings-icon.png"/>
+						<span class="fs-16-col-gray p-4">Settings</span>
+						</a>
+					  </li>
+					  <li>
+						<a href="#" class="nav-link text-white">
+							<img src="/assets/images/subscription-icon.png"/>
+							<span class="fs-16-col-gray p-4">Subscription</span>
+						</a>
+					  </li>
+					  <hr>
+					  <li>
+						<input type="checkbox" id="toggle">
+						<label for="toggle" class="modal-button">Subscribe to Newsletter</label>
+						<dialog >
+						<p>
+							You have been gifted a subscription :-) Thank you so much for visiting our site!
+						</p>
+						<label for="toggle" class="modal-button">Close</label>
+						</dialog>
+					  </li>
+				  </ul>
+			</div>
+
+			<!--------------------- MAIN PANEL (RIGHT) ---------------------->
+			<div class="right-panel">
+
+				<section class="text-center flex-grow-1 px-3">
+					<div class="container">
+						
+						<!----------------HEADER------------------>
+						<div class="row mt-5">
+							<div class="col d-flex justify-content-between">
+								<p class="h3 overview d-inline">Overview</p>
+
+								<div class="user-content d-flex align-items-center justify-content-between ">
+									<img src="/assets/images/search-icon.png" alt="" class="search-icon">
+									<img src="/assets/images/notification.png" alt="" class="notification">
+									<div class="line text-dark text-opacity-50">|</div>
+									<p class="user-name my-0 mx-2 fs-14-col-darkgray">Jones Ferdinand</p>
+									<img src="/assets/images/user-image.png" alt="" class="user-image">
+								</div>
+							</div>
+						</div>
+
+						<!-----------------------OVERVIEW-------------------->
+						<div class="stats row py-4">
+							<div class="col-md-3">
+								<div class="card text-center">
+									<div class="card-body">
+										<p class="fs-19-col-gray-semi card-title-top">Unresolved</p>
+										<p class="card-text">60</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center">
+									<div class="card-body">
+										<p class="fs-19-col-gray-semi card-title-top">Overdue</p>
+										<p class="card-text">16</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center">
+									<div class="card-body">
+										<p class="fs-19-col-gray-semi card-title-top">Open</p>
+										<p class="card-text">43</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="card text-center">
+									<div class="card-body">
+										<p class="fs-19-col-gray-semi card-title-top">On hold</p>
+										<p class="card-text">64</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-------------------TODAY'S TREND------------------>
+						<div class="row mb-4">
+							<div class="col">
+								<div class="card">
+									<div class="card-body p-0">
+										<div class="row g-0">
+
+											<!-------------------------CHART GRAPH----------------->
+											<div class="col-md-8 p-4">
+												<div class="title d-flex flex-grow-1 justify-content-between px-4 pt-4">
+													<div class="dashboard-card text-start">
+														<p class="h5 fc-dark-gray fs-19">Today's trends</p>
+														<p class="fs-12-col-gray">as of 25 May 2019, 09:41 PM</p>
+													</div>
+													<div class="user-content d-flex align-items-center ">
+														<img src="/assets/images/divider.png" alt="" class="">
+														<p class="user-name my-0 mx-2 fs-12-col-gray">Today</p>
+														<img src="/assets/images/divider-yesterday.png" alt="" class="">
+														<p class="user-name my-0 mx-2 fs-12-col-gray">Yesterday</p>
+													</div>
+													<img src="/assets/images/divider.png" class="divider"/>
+												</div>
+												<img class="graph-chart" src="/assets/images/full-graph.png" />
+											</div>
+
+											<!-------------------GRAPH DETAILS---------------------->
+											<div class="col-md-4 border-start">
+												<div class="trends justify-content-center border-bottom p-3">
+													<p class="fs-16 fc-gray">Resolved</p>
+													<p class="trends-right-value">449</p>
+												</div>
+												<div class="trends justify-content-center border-bottom p-3">
+													<p class="fs-16 fc-gray">Received</p>
+													<p class="trends-right-value">426</p>
+												</div>
+												<div class="trends justify-content-center border-bottom p-3">
+													<p class="fs-16 fc-gray">Average first response time</p>
+													<p class="trends-right-value">33m</p>
+												</div>
+												<div class="trends justify-content-center border-bottom p-3">
+													<p class="fs-16 fc-gray">Average response time</p>
+													<p class="trends-right-value">3h 8m</p>
+												</div>
+												<div class="trends justify-content-center p-3">
+													<p class="fs-16 fc-gray">Resolution within SLA</p>
+													<p class="trends-right-value">94%</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!---------------------UNRESOLVED TICKETS---------------------->
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body p-0">
+										<div class="title d-flex flex-grow-1 justify-content-between px-4 pt-4">
+											<div class="dashboard-card d-flex flex-column align-items-start">
+												<p class="h5 fc-dark-gray fs-19">Unresolved Tickets</p>
+												<p class="fs-12-col-gray">Group:Support</p>
+											</div>
+											<a class="fs-14 col-blue view">View Details</a>
+										</div>
+										<ul class="tickets list-unstyled mb-0">
+											<li
+												class="d-flex justify-content-between border-bottom border-dark border-opacity-25 py-3">
+												<p class="fs-14 mb-0 ps-4 ">Waiting on Feature Request</p>
+												<p class="fs-14 fc-gray mb-0 pe-4">4238</p>
+											</li>
+											<li
+												class="d-flex justify-content-between border-bottom border-dark border-opacity-25 py-3">
+												<p class="fs-14 mb-0 ps-4">Awaiting Customer Response</p>
+												<p class="fs-14 fc-gray mb-0 pe-4">1005</p>
+											</li>
+											<li
+												class="d-flex justify-content-between border-bottom border-dark border-opacity-25 py-3">
+												<p class="fs-14 mb-0 ps-4">Awaiting Developer Fix</p>
+												<p class="fs-14 fc-gray mb-0 pe-4">914</p>
+											</li>
+											<li class="d-flex justify-content-between py-3">
+												<p class="fs-14 mb-0 ps-4">Pending</p>
+												<p class="fs-14 fc-gray mb-0 pe-4">281</p>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-----------------------TASKS------------------------->
+							<div class="col-md-6 mb-5">
+								<div class="card">
+									<div class="card-body p-0">
+										<div class="title d-flex flex-grow-1 justify-content-between px-4 pt-4">
+											<div class="dashboard-card d-flex flex-column align-items-start">
+												<p class="h5 fc-dark-gray fs-19">Tasks</p>
+												<p class="fs-12-col-gray">Today</p>
+											</div>
+											<a class="fs-14 col-blue view text-decoration-none">View all</a>
+										</div>
+										<ul class="tickets list-unstyled mb-0">
+											<li
+												class="d-flex justify-content-between border-bottom border-dark border-opacity-25 py-3">
+												<p class="mb-0 ps-4 fs-14 fc-gray">Create new task</p>
+												<p class="mb-0 pe-4"><i class="fa-solid fa-square-plus text-dark text-opacity-25 fs-3"></i></p>
+											</li>
+											<li
+												class="d-flex justify-content-between border-bottom border-dark border-opacity-25 py-3">
+												<div class="fs-14 form-check ms-4 ">
+													<input class="form-check-input checkbox-round" type="checkbox" name="finish-ticket-update" id="finish-ticket-update">
+													<label class="form-check-label" for="finish-ticket-update">Finish ticket update</label>
+												</div>
+												<p class="mb-0 me-4 pb-0 lh-sm badge text-bg-warning fc-white fw-200">URGENT</p>
+											</li>
+											<li
+												class="d-flex justify-content-between border-bottom border-dark border-opacity-25 py-3">
+												<div class="fs-14 form-check ms-4 ">
+													<input class="form-check-input checkbox-round" type="checkbox" name="ticket-example" id="create-ticket-example">
+													<label class="form-check-label" for="create-ticket-example">Create new ticket example</label>
+												</div>
+												<p class="mb-0 me-4 lh-sm badge text-bg-success fc-white fw-200">NEW</p>
+											</li>
+											<li class="d-flex justify-content-between py-3">
+												<div class="fs-14 form-check ms-4">
+													<input class="form-check-input checkbox-round" type="checkbox" name="update-ticket" id="update-ticket-report">
+													<label class="form-check-label" for="update-ticket-report">Update ticket report</label>
+												</div>
+												<p class="mb-0 me-4 lh-sm badge text-bg-light">DEFAULT</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+				
+			<!------------------ JavaScript ------------------>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    		
+	</body>
+</html>
